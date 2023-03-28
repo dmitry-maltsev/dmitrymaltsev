@@ -1,4 +1,64 @@
-baseURL: ""
-languageCode: en-us
+baseURL: "https://dmitrymaltsev.com"
 title: Dmitry Maltsev
-theme: "PaperMod"
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+
+googleAnalytics: G-9ZYWGW8WZR
+
+minify:
+  minifyOutput: true
+
+menu:
+  main:
+    - name: Search
+      url: search/
+
+params:
+  profileMode:
+    enabled: true
+    imageUrl: "https://media.licdn.com/dms/image/D4E03AQGB0-hnWXDwRQ/profile-displayphoto-shrink_400_400/0/1679938692996?e=1685577600&v=beta&t=5yI29QRkXWuKZI9AGQP6ea1_exB_trYSaGauSJHNHJE"
+    buttons:
+      - name: Blog
+        url: "/posts"
+  socialIcons:
+    - name: github
+      url: "https://github.com/dmitry-maltsev/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/21503755/dmitry-maltsev"
+    - name: mastodon
+      url: "https://hachyderm.io/@dmaltsev"
+    - name: rss
+      url: "rss.xml"
+
+  keywords: [Maltsev, Dmitry Maltsev, blog, technology, .NET, Azure]
+  defaultTheme: auto
+
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+  privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
