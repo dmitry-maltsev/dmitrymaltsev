@@ -1,11 +1,15 @@
 ---
-title: "Welcome to my blog"
+title: "Starting up"
 date: 2023-03-19T00:00:00+00:00
 draft: false
 ShowReadingTime: true
+cover:
+    image: "https://img.freepik.com/premium-vector/system-software-update-upgrade-concept-loading-process-screen-vector-illustration_175838-2182.jpg?w=2000"
+    alt: "Loading..."
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-Hello, and welcome to my new blog! My name is Dmitry Maltsev, and I'm excited to share my thoughts and experiences with you about technology and coding.
+Hello, and welcome to my blog! My name is Dmitry Maltsev, and I'm excited to share my thoughts and experiences with you about technology and coding.
 
 Technology is constantly evolving, and I believe it's important to stay up-to-date on the latest trends and advancements. As someone who has always been passionate about technology, I enjoy exploring new tools and techniques that can help improve our lives and solve complex problems.
 
