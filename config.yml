@@ -13,6 +13,8 @@ minify:
 
 menu:
   main:
+    - name: Home
+      url: /
     - name: Search
       url: search/
 
@@ -24,6 +26,8 @@ params:
       - name: Blog
         url: "/posts"
   socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/dmitry-maltsev-669571113/"
     - name: github
       url: "https://github.com/dmitry-maltsev/"
     - name: stackoverflow
