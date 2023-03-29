@@ -1,11 +1,11 @@
 ---
-title: "Starting up"
+title: "Starting up..."
 date: 2023-03-19T00:00:00+00:00
 draft: false
-ShowReadingTime: true
+tags: ["dotnet", "rocket", "blogging"]
 cover:
-    image: "https://img.freepik.com/premium-vector/system-software-update-upgrade-concept-loading-process-screen-vector-illustration_175838-2182.jpg?w=2000"
-    alt: "Loading..."
+    image: "https://yourdost.com/blog/wp-content/uploads/2016/04/Start-a-startup-compressor.jpg"
+    alt: "Starting up..."
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 

@@ -19,12 +19,9 @@ menu:
       url: search/
 
 params:
-  profileMode:
-    enabled: true
-    imageUrl: "https://media.licdn.com/dms/image/D4E03AQGB0-hnWXDwRQ/profile-displayphoto-shrink_400_400/0/1679938692996?e=1685577600&v=beta&t=5yI29QRkXWuKZI9AGQP6ea1_exB_trYSaGauSJHNHJE"
-    buttons:
-      - name: Blog
-        url: "/posts"
+  homeInfoParams:
+    Title: Dmitry Maltsev | .NET Rocket 🚀
+
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/dmitry-maltsev-669571113/"
@@ -37,10 +34,11 @@ params:
     - name: rss
       url: "rss.xml"
 
-  keywords: [Maltsev, Dmitry Maltsev, blog, technology, .NET, Azure]
+  keywords: [Dmitry Maltsev, Maltsev, .NET Rocket, .NET, Azure, Blog, Technology]
   defaultTheme: auto
 
   ShowCodeCopyButtons: true
+  ShowReadingTime: true
   ShowRssButtonInSectionTermList: true
 
 outputs:
@@ -48,21 +46,3 @@ outputs:
     - HTML
     - RSS
     - JSON
-
-  privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
